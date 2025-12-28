@@ -19,7 +19,7 @@ const EMAIL = 'naz.otken@gmail.com';
 const LINKEDIN_URL = 'https://uk.linkedin.com/in/celennazotken'; // Placeholder
 const GITHUB_URL = 'https://github.com/celennazotken'; // Placeholder
 const GS_URL = 'https://scholar.google.com/citations?user=wF8vsPgAAAAJ&hl=tr'; // Placeholder
-const CV_URL = 'CNO_CV_Dec2025.pdf'; // Placeholder for CV
+const CV_URL = './CNO_CV_Dec2025.pdf'; // Placeholder for CV
 const FORMSPREE_URL = 'https://formspree.io/f/mqeklnnp';
 
 export default function App() {
@@ -117,7 +117,7 @@ export default function App() {
               <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-tr from-orange-600 via-orange-400 to-yellow-300 shadow-lg">
                 <div className="w-full h-full rounded-full overflow-hidden bg-[#1a1a1a] border-4 border-[#0a0a0a]">
                   <img
-                    src="img_nanobanana.jpg"
+                    src="./img_nanobanana.jpg"
                     alt="Naz Otken"
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
